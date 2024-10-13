@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matttdev</title>
+    <link rel="icon" type="image/x-icon" href="imgs/react.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/1c3de02d9a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#myPage">
+            <span style="color: #1533dd; font-size: 40px">Matt</span>Dev
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#portfolio">PROJECTS</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container content-container">
+      <div class="flex-container">
+        <div class="text-content">
+          <h4 style="font-size: 40px; font-weight: 500; color: black">
+            Hi, I'm
+          </h4>
+          <div class="flex-container">
+            <h1>Mateus O.</h1>
+            <div class="avatar-card">
+              <img src="imgs/avatar (1) (1).png" alt="Avatar de Mateus O." />
+            </div>
+          </div>
+          <h4 style="font-size: 30px; font-weight: 500; color: black">
+            I'm a Fullstack developer, located in Brazil
+          </h4>
+          <h5 style="font-size: 20px; font-weight: 500; color: black">
+            I'm passionate about Fullstack development and always looking for
+            new challenges.
+          </h5>
+          <div class="btn-container">
+            <a
+              href="https://www.linkedin.com/in/matttdev/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-custom"
+            >
+              <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a
+              href="https://github.com/MatDevvv?tab=repositories"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-custom"
+            >
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="download-buttons">
+        <a
+          href="/curriculo portugues.pdf"
+          class="btn btn-custom btn-brasil"
+          download
+        >
+          <img
+            src="imgs/brasil.jpg"
+            alt="Bandeira do Brasil"
+            class="flag-icon"
+          />
+          Baixar Currículo
+        </a>
+        <a
+          href="/curriculum ingles.pdf"
+          class="btn btn-custom btn-eua"
+          download
+        >
+          <img
+            src="imgs/estados unidos.png"
+            alt="Bandeira dos Estados Unidos"
+            class="flag-icon"
+          />
+          Download curriculum
+        </a>
+      </div>
+    </div>
+
+    <section style="background-color: rgba(230, 227, 227, 0.26);" id="portfolio" class="projects">
+      <h2>PROJECTS</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="imgs/phd.jpg" alt="OhMyFood" />
+          <div class="overlay">
+            <a
+              href="https://www.phdimoveisgo.com.br"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-circle"
+            >
+              <i style="font-size: 25px" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+          <h3>PHD imoveis</h3>
+          <p>website for selling and renting properties</p>
+          <div class="tags">
+            <span>HTML</span><span>PHP</span><span>Javascript</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <img
+            src="imgs/Captura de tela 2024-10-12 054149.jpg"
+            alt="SportSee"
+          />
+          <div class="overlay">
+            <a
+              href="https://github.com/MatDevvv/design"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-circle"
+            >
+              <i style="font-size: 25px" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://agenciadevmatdev.netlify.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-circle"
+            >
+              <i style="font-size: 25px" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+          <h3>Design page</h3>
+          <p>
+            internal and external design related page developed for digital
+            tricks
+          </p>
+          <div class="tags">
+            <span>Html</span><span>Css</span><span>Javascript</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="imgs/Agenciadev.jpg" alt="SportSee" />
+          <div class="overlay">
+            <a
+              href="https://github.com/MatDevvv/Agencia-dev"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-circle"
+            >
+              <i style="font-size: 25px" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://agencydev.netlify.app/#"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-circle"
+            >
+              <i style="font-size: 25px" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+          <h3>Agência dev</h3>
+          <p>website for web development agency</p>
+          <div class="tags"><span>Html</span><span>Css</span></div>
+        </div>
+
+        <div class="project-card">
+          <img src="imgs/zip-code.jpg" alt="Zip-Code" />
+          <div class="overlay">
+            <a
+              href="https://github.com/MatDevvv/Zip-Code"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-circle"
+            >
+              <i style="font-size: 25px" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://zipcodematdev.netlify.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-circle"
+            >
+              <i style="font-size: 25px" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+          <h3>Zip code</h3>
+          <p>API to get informations using a zip code</p>
+          <div class="tags">
+            <span>HTML</span><span>Node</span><span>React</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="imgs/clickapi.jpg" alt="Zip-Code" />
+          <div class="overlay">
+            <a
+              href="https://github.com/MatDevvv/Api-Click"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-circle"
+            >
+              <i style="font-size: 25px" class="fab fa-github"></i>
+            </a>
+          
+          </div>
+          <h3>Click API</h3>
+          <p>API for User and Room Management
+          </p>
+          <div class="tags">
+            <span>AdonisJs</span><span>Typescript</span><span>Node</span>
+          </div>
+      </div>
+      <div class="project-card">
+        <img src="imgs/pizza.jpg" alt="Zip-Code" />
+        <div class="overlay">
+          <a
+            href="https://github.com/MatDevvv/pizza"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-circle"
+          >
+            <i style="font-size: 25px" class="fab fa-github"></i>
+          </a>
+          <a
+          href="https://pizzamatdev.netlify.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-circle"
+        >
+          <i style="font-size: 25px" class="fas fa-external-link-alt"></i>
+        </a>
+        </div>
+        <h3>Pizza</h3>
+        <p>pizzeria website
+
+        </p>
+        <div class="tags">
+          <span>Html</span><span>Css</span><span>Bootstrap</span>
+        </div>
+    </div>
+    <div class="project-card">
+      <img src="imgs/pizza.jpg" alt="Zip-Code" />
+      <div class="overlay">
+        <a
+          href="https://github.com/MatDevvv/pizza"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-circle"
+        >
+          <i style="font-size: 25px" class="fab fa-github"></i>
+        </a>
+        <a
+        href="https://pizzamatdev.netlify.app"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn-circle"
+      >
+        <i style="font-size: 25px" class="fas fa-external-link-alt"></i>
+      </a>
+      </div>
+      <h3>Pizza</h3>
+      <p>Pizzeria website
+      </p>
+      <div class="tags">
+        <span>Html</span><span>Css</span>
+      </div>
+  </div>
+  <div class="project-card">
+    <img src="imgs/petshop.jpg" alt="Zip-Code" />
+    <div class="overlay">
+      <a
+        href="https://github.com/MatDevvv/petshop"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn-circle"
+      >
+        <i style="font-size: 25px" class="fab fa-github"></i>
+      </a>
+      <a
+      href="https://petshopmattdev.netlify.app"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="btn-circle"
+    >
+      <i style="font-size: 25px" class="fas fa-external-link-alt"></i>
+    </a>
+    </div>
+    <h3>Petshop</h3>
+    <p>Petshop website
+    </p>
+    <div class="tags">
+      <span>Html</span><span>Css</span>
+    </div>
+</div>
+    </section>
+
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <img src="imgs/javascript.png" alt="JavaScript Icon" />
+          <p>JavaScript</p>
+        </div>
+        <div class="skill-card">
+          <img src="imgs/node.png" alt="Node Icon" />
+          <p>Node</p>
+        </div>
+
+        <div class="skill-card">
+          <img src="imgs/react.png" alt="React Icon" />
+          <p>React</p>
+        </div>
+        <div class="skill-card">
+          <img src="imgs/AdonisJS.png" alt="AdonisJs" />
+          <p>AdonisJs</p>
+        </div>
+        <div class="skill-card">
+          <img src="imgs/git.png" alt="Git Icon" />
+          <p>Git</p>
+        </div>
+        <div class="skill-card">
+          <img src="imgs/css.png" alt="CSS Icon" />
+          <p>CSS</p>
+        </div>
+        <div class="skill-card">
+          <img src="imgs/html.png" alt="HTML Icon" />
+          <p>HTML</p>
+        </div>
+        <div class="skill-card">
+          <img src="imgs/figma.png" alt="Figma Icon" />
+          <p>Figma</p>
+        </div>
+        <div class="skill-card">
+          <img src="imgs/api.png" alt="API Icon" />
+          <p>API</p>
+        </div>
+
+        <div class="skill-card">
+          <img src="imgs/sass.png" alt="Sass Icon" />
+          <p>Sass</p>
+        </div>
+        <div class="skill-card">
+          <img src="imgs/python.png" alt="Python icon" />
+          <p>Python</p>
+        </div>
+        <div class="skill-card">
+          <img src="imgs/django.svg" alt="Django icon" />
+          <p>Django</p>
+        </div>
+        <div class="skill-card">
+          <img src="imgs/icons8-texto-datilografado-48.png" alt="Django icon" />
+          <p>TypeScript</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
